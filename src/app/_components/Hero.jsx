@@ -120,11 +120,17 @@ function Hero() {
                 Unlocking the Power of the Cloud: Your Sky's the Limit
               </p>
               <div>
-                <button className="bg-white text-[#047EB3] rounded-3xl ml-1 p-3 px-4  mt-5">
+                <button
+                  aria-label="scroll-button"
+                  className="bg-white text-[#047EB3] rounded-3xl ml-1 p-3 px-4  mt-5"
+                >
                   <span>Lest Get Started</span>{" "}
                   <FontAwesomeIcon className=" ml-1" icon={faArrowDown} />
                 </button>
-                <button className="bg-white text-[#047EB3] rounded-full ml-4 p-3 px-4  mt-5">
+                <button
+                  aria-label="contact"
+                  className="bg-white text-[#047EB3] rounded-full ml-4 p-3 px-4  mt-5"
+                >
                   <FontAwesomeIcon
                     className="scale-[1.5]"
                     icon={faHeadphones}
@@ -137,7 +143,7 @@ function Hero() {
             <div className="absolute left-[17%]  items-end top-[31%] flex flex-col ">
               <div
                 ref={line}
-                className="border-r-2 mr-[6px]   pr-3 pt-1 border-gray-200 overflow-hidden w-[350px] opacity-0 border-dashed mb-1 h-0 "
+                className="border-r-2 mr-[6px] pr-3 pt-1 border-gray-200 overflow-hidden w-[350px] opacity-0 border-dashed mb-1 h-0 "
               >
                 <div className="flex mb-3 justify-end w-full">
                   <span className="mx-1 bg-[#E3A689] w-[40px]  h-1 rounded"></span>
